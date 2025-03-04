@@ -8,5 +8,5 @@ function login ()
       window.location.href = "home.html";
      document.getElementById("compiler").style.display = "block";
     }
-    else document.write("Không hợp lệ") 
+   document.getElementById("error-message").innerText = "Không hợp lệ";
   } 
