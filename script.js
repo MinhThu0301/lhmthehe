@@ -1,11 +1,12 @@
 function login ()
   {
-    let a = username.value
-    let b= password.value
+    let a = document.getElementById("username").value;
+    let b = document.getElementById("password").value;
+
     if ( a == "abc" && b == "1234" )
     {
-      window.open("home.html")
-      document. getElementById(compiler).style.display="block";
+      window.location.href = "home.html";
+     document.getElementById("compiler").style.display = "block";
     }
     else document.write("Không hợp lệ") 
   } 
