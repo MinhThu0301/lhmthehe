@@ -1,18 +1,18 @@
-<!DOCTYPE html>
 <html>
-<head>
+  <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <form id="loginForm">
-    <label for="username">Tên đăng nhập:</label>
-    <input type="text" id="username" name="username" placeholder="Nhập tên" required><br>
-    <label for="password">Mật khẩu:</label>
-    <input type="password" id="password" name="pasword" placeholder="Nhập mật khẩu" required><br>
-    <button type="submit" id="ok" name="ok">Đăng nhập</button>
-    <div id="error-message"></div>  
-    <div id="success-message"></div>
+  <form>
+    <label> Tên đăng nhập: </label>
+    <input type="text" id="username" name="username">
+    <label> Mật khẩu: </label>
+    <input type="password" id="password" name="password">
+    <button type="submit" onclick=login() id="ok" name="ok"> Đăng nhập </button>
   </form>
-  <script src="scripts.js"></script>
+  <script src="script.js">  </script>
 </body>
 </html>
