@@ -2,10 +2,11 @@ function login ()
   {
     let a = username.value
     let b= password.value
-    if ( a == "abc" && b == "1234" )
+    if ( a == "abc" && b == "123" )
     {
-      window.open("home.html")
-      document. getElementById(compiler).style.display="block";
+      window.open("home.html);
+      document. getElementById("compiler").style.display="block";
     }
-    else document.write("Không hợp lệ") 
+    else 
+      document.write("Không hợp lệ") 
   } 
